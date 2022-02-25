@@ -36,7 +36,6 @@ iii) Find from the errors table Reg72 => poor received signal
 ## Usage
 Heroku deployed link: https://tuf2000m.herokuapp.com/ 
 rawdt.txt can be dowload through this link: https://github.com/ut2405/TUF2000M/blob/main/rawdt.txt  
-## STEPS
 TO UPLOAD AND PARSE A SAMPLE *.txt
   1. Choose file
   2. Press Upload and wait for page refreshed.
