@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "react-scripts start",
-    "start": "node server/app.js",
+    "start": "node app.js",
     "build": "cd client && npm install && npm run build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
-    "server": "nodemon server/app.js"
+    "server": "nodemon app.js"
   },
   "engines": {
     "node": "v14.16.0"
