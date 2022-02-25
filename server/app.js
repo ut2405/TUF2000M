@@ -12,10 +12,10 @@ console.log('App Runs on '+port);
 
 
   // Serve any static files
-  app.use(express.static(path.resolve(__dirname, "./client/build")));
+  app.use(express.static(path.resolve("../client/build")));
   // Handle React routing, return all requests to React app
   app.get("*", function (request, response) {
-    response.sendFile(path.resolve(__dirname, "./client/build", "index.html"));
+    response.sendFile(path.resolve("../client/build", "index.html"));
   });
 
 
