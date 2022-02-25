@@ -1,11 +1,9 @@
 # <TUF2000M CONVERT RAW DATA TO HUMAN READABLE DATA>
-
 ## Description
 This is a full-stack project includes Node.js server and React web client, database located on MongoDB Cloud.
-
-- A convinient way to get human readable value from a list of raw data.
-- Easy adding more MODBUS Register and cases. 
-
+- A convinient way to get human readable value from a list of raw data (CURRENT SCOPE FIRST 100 REGISTRER ON MODBUS TABLE)
+- Easy adding more MODBUS Register and cases.
+  
 ## Cases can solve and description
 1. LONG FORMAT:
 This type includes 2 register number (NUMBER=2) {Example: Register 0021(Reg21:65480)- Register 0022(Reg22:65535)}
@@ -34,12 +32,10 @@ iv) Reg55 is for(YM) low bits first meaning 8 low bit for Moth, 8 high bits for 
 This type includes 1 register number(NUMBER=1){Example: Register 0072(Reg72:4)}
 Convert logic: i) Convert Reg72 into binary(0000000000000100)
 ii) Check index of bit 1 of Reg72 => bit2
-iii) Find from the errors table Reg72 => poor received signal
-  
+iii) Find from the errors table Reg72 => poor received signal  
 ## Usage
 Heroku deployed link: https://tuf2000m.herokuapp.com/ 
-rawdt.txt can be dowload through this link: https://github.com/ut2405/TUF2000M/blob/main/rawdt.txt
-  
+rawdt.txt can be dowload through this link: https://github.com/ut2405/TUF2000M/blob/main/rawdt.txt  
 ## STEPS
 TO UPLOAD AND PARSE A SAMPLE *.txt
   1. Choose file
