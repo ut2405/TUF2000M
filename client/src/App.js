@@ -21,8 +21,7 @@ function App() {
     const strs=rawtext.split(/\r?\n/);
     var response;    
     await Promise.all(strs.map(async (str) => {
-      response= await axios.put(
-        "http://localhost:8000/tuf/v1/update/"+str    
+      response= await axios.put("/tuf/v1/update/"+str    
       );
       
     }));   
@@ -31,23 +30,20 @@ function App() {
   };
 
   const parseData = async () => {
-    const response = await axios.put(
-      "http://localhost:8000/tuf/v1/parse"
+    const response = await axios.put("/tuf/v1/parse"
     );
     setParse(response.data);
   };
 
   const fetchData = async () => {
     setText(null);
-    const response = await axios.get(
-      "http://localhost:8000/tuf/v1"
+    const response = await axios.get("/tuf/v1"
     );
     settuf(response.data);
   };
 
   const cleanData = async () => {
-    const response = await axios.put(
-      "http://localhost:8000/tuf/v1/clean"
+    const response = await axios.put("/tuf/v1/clean"
     );
     settuf(response.data);
     window.location.reload(false);
