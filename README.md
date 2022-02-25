@@ -42,12 +42,12 @@ rawdt.txt can be dowload through this link: https://github.com/ut2405/TUF2000M/b
   
 ## STEPS
 TO UPLOAD AND PARSE A SAMPLE *.txt
-  1.Choose file
-  2.Press Upload and wait for page refreshed.
-  3.Press Parse to request parse data and save to DB.
-  4.Press Fetch data to request full-package data parsed.
+  1. Choose file
+  2. Press Upload and wait for page refreshed.
+  3. Press Parse to request parse data and save to DB.
+  4. Press Fetch data to request full-package data parsed.
 TO CLEAR RAW DATA ON DB
-  1.Press Clean Raw dt
+  1. Press Clean Raw dt
 TO FETCH CURRENT DATA FROM DB
-  1.Press Fetch Data
+  1. Press Fetch Data
   
