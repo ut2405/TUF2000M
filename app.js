@@ -12,7 +12,8 @@ console.log('App Runs on '+port);
 
 if (process.env.NODE_ENV === 'production') {
   // Serve any static files
-  app.use(express.static(path.resolve(__dirname,"./client/build")));
+  //app.use(express.static(path.resolve(__dirname,"./client/build")));
+  app.use(express.static('client/build'));
   // Handle React routing, return all requests to React app
   app.get("*", function (request, response) {
     response.sendFile(path.resolve(__dirname,"./client/build", "index.html"));
