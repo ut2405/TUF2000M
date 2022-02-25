@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const port=process.env.PORT || 8000;
 const cors = require('cors');
 app.use(express.json());
@@ -10,7 +11,7 @@ app.listen(port);
 console.log('App Runs on '+port);
 
 // Accessing the path module
-const path = require("path");
+
 
 // Step 1:
 app.use(express.static(path.resolve(__dirname, "./client/build")));
