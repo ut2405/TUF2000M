@@ -35,4 +35,8 @@ This type includes 1 register number(NUMBER=1){Example: Register 0072(Reg72:4)}
 Convert logic: i) Convert Reg72 into binary(0000000000000100)
 ii) Check index of bit 1 of Reg72 => bit2
 iii) Find from the errors table Reg72 => poor received signal
+  
+## Usage
+Heroku deployed link: https://tuf2000m.herokuapp.com/ 
+rawdt.txt can be dowload through this link: https://github.com/ut2405/TUF2000M/blob/main/rawdt.txt
 
