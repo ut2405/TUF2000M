@@ -36,13 +36,13 @@ iii) Find from the errors table Reg72 => poor received signal
 ## Usage
 Heroku deployed link: https://tuf2000m.herokuapp.com/ 
 rawdt.txt can be dowload through this link: https://github.com/ut2405/TUF2000M/blob/main/rawdt.txt  
-TO UPLOAD AND PARSE A SAMPLE *.txt
+# TO UPLOAD AND PARSE A SAMPLE *.txt
   1. Choose file
   2. Press Upload and wait for page refreshed.
   3. Press Parse to request parse data and save to DB.
   4. Press Fetch data to request full-package data parsed.
-TO CLEAR RAW DATA ON DB
+# TO CLEAR RAW DATA ON DB
   1. Press Clean Raw dt
-TO FETCH CURRENT DATA FROM DB
+# TO FETCH CURRENT DATA FROM DB
   1. Press Fetch Data
   
