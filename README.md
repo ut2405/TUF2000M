@@ -35,4 +35,16 @@ This type includes 1 register number(NUMBER=1){Example: Register 0072(Reg72:4)}
 Convert logic: i) Convert Reg72 into binary(0000000000000100)
 ii) Check index of bit 1 of Reg72 => bit2
 iii) Find from the errors table Reg72 => poor received signal
+## Usage
+1. Heroku deployed link: https://tuf2000m.herokuapp.com/ 
+2. File rawdt.txt can be dowload through this link: https://github.com/ut2405/TUF2000M/blob/main/rawdt.txt
 
+# TO UPLOAD AND PARSE A SAMPLE *.txt
+1. Choose file
+2. Press Upload and wait for page refreshed.
+3. Press Parse to request parse data and save to DB.
+4. Press Fetch data to request full-package data parsed.
+# TO CLEAR RAW DATA ON DB
+1. Press Clean Raw dt
+# TO FETCH CURRENT DATA FROM DB
+1. Press Fetch Data
